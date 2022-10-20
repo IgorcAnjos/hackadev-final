@@ -1,0 +1,154 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  /* Formulário de informações da pagamento */
+
+  .formulario.formas-pagamento {
+    margin: 0 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .formulario.formas-pagamento .texto-descricao {
+    font-size: 3vh;
+    text-align: center;
+    margin: 1.5vh 0;
+    color: #002855;
+  }
+
+  .lista.formas-pagamento {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+  }
+
+  li {
+    list-style: none;
+  }
+  /* Botões de seleção das formas de pagamento */
+  .lista.formas-pagamento .selecao-forma {
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdfe5;
+    height: 10vh;
+    width: 14vh;
+    background: #fafafa;
+    margin-bottom: 2vh;
+    color: #dcdfe5;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .formas-de-pagamento {
+    font-size: 3vh;
+    padding: 2vh 0;
+  }
+
+  .lista.formas-pagamento #cartao-credito {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* background: #dcdfe5;
+    border: 1px solid #002855;
+    color: #002855; */
+  }
+
+  .lista.formas-pagamento #pix {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .lista.formas-pagamento .i {
+    font-size: 3vh;
+  }
+
+  .lista.formas-pagamento .texto-forma-pagamento {
+    font-size: 2vh;
+  }
+}
+
+/* Desktop */
+@media (min-width: 500px) {
+  /* Formulário de informações da pagamento */
+
+  .formulario.formas-pagamento {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .formulario.formas-pagamento .texto-descricao {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+    color: #002855;
+  }
+
+  .lista.formas-pagamento {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+  }
+
+  .lista.formas-pagamento .selecao-forma:hover {
+    cursor: pointer;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* Botões de seleção das formas de pagamento */
+  .lista.formas-pagamento .selecao-forma {
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdfe5;
+    height: 90px;
+    width: 120px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    color: #dcdfe5;
+  }
+
+  .formas-de-pagamento {
+    font-size: 3vh;
+    padding: 2vh 0;
+  }
+  /* .lista.formas-pagamento .selecao-forma:focus {
+    background: #dcdfe5;
+    border: 1px solid #002855;
+    color: #002855;
+  } */
+
+  .lista.formas-pagamento #cartao-credito {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .lista.formas-pagamento #pix {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .lista.formas-pagamento .i {
+    font-size: 20px;
+  }
+
+  .lista.formas-pagamento .texto-forma-pagamento {
+    font-size: 15px;
+  }
+}

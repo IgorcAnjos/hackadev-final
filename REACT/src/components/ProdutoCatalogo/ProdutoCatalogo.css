@@ -1,0 +1,129 @@
+@import url("../reset/reset.css");
+
+@media (max-width: 900px) {
+  .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #161616;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .item-catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vh;
+    margin-bottom: 3vh;
+    width: 40vw;
+    height: 75vw;
+    background-color: #dcdfe5;
+    border-radius: 1vh;
+    padding-bottom: 1vh;
+    box-shadow: 0.3vh 0.3vh 0px 0.2vh #161616;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .imagem-catalogo {
+    object-fit: cover;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    width: 100%;
+    height: 75%;
+  }
+
+  .item-catalogo .nome-item {
+    font-size: 4vw;
+    margin-top: 1.5vh;
+    margin-bottom: 0;
+    transition: 1s ease-in-out;
+  }
+
+  .preco-desconto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .preco-catalogo,
+  .desconto {
+    font-size: 3vw;
+  }
+
+  .desconto {
+    background: #002855;
+    color: #fafafa;
+    padding: 1vw;
+    font-weight: bold;
+    border: 0.2vh solid white;
+    border-radius: 0.3vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .link {
+    text-decoration: none;
+    color: #161616;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .item-catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+    width: 27vw;
+    height: 70vh;
+    background-color: #dcdfe5;
+    border-radius: 1vw;
+    box-shadow: 0.3vh 0.3vh 0px 0px #161616;
+    padding-bottom: 1vw;
+    cursor: pointer;
+  }
+
+  .imagem-catalogo {
+    object-fit: cover;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    width: 100%;
+    height: 80%;
+  }
+
+  .item-catalogo .nome-item {
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+  .preco-desconto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .preco-catalogo,
+  .desconto {
+    font-size: 2.5vw;
+  }
+
+  .desconto {
+    background: #002855;
+    color: #fafafa;
+    padding: 0.5vw;
+    font-weight: bold;
+    border: 0.2vh solid white;
+    border-radius: 0.3vh;
+  }
+}

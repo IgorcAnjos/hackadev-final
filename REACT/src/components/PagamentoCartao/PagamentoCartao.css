@@ -1,0 +1,203 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  /* seção de opções do cartão de crédito */
+  .formulario-pagamento {
+    border: 1px solid #dcdfe5;
+    border-radius: 3px;
+    padding: 1vh;
+    width: 80vw;
+    margin: 2vh auto;
+  }
+
+  .entrada.numero-cartao,
+  .entrada.nome-titular {
+    margin-top: 2vh;
+  }
+  .entrada input:focus {
+    outline: 1px solid #002855;
+  }
+
+  .entradas-cartao-texto {
+    color: #002855;
+    font-size: 2vh;
+    font-weight: lighter;
+    margin-bottom: 0.5vh;
+  }
+
+  /* Validade do cartao e código de seguranca*/
+  .validade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .texto-informacao-cartao {
+    font-size: 2vh;
+    color: #002855;
+    padding-bottom: 1vh;
+  }
+
+  /*seção dos inputs de validade  */
+  .entrada-mes,
+  .entrada-ano,
+  .entrada-codigo-verificacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .validade select,
+  .validade input {
+    width: 20vw;
+    height: 10vw;
+    border-radius: 5px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #dcdfe5;
+    cursor: pointer;
+  }
+
+  .validade select:focus,
+  .validade input:focus {
+    outline: 1px solid #002855;
+    background: #dcdfe5;
+  }
+
+  /* Parcelas a pagar */
+  .entrada-parcelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.7vh;
+  }
+
+  .texto-informacao-cartao {
+    font-size: 3vh;
+  }
+  .parcelas-cartao {
+    width: 80vw;
+    height: 10vw;
+    border-radius: 5px;
+    background: #fafafa;
+    border: none;
+    background: #dcdfe5;
+    margin-bottom: 1.5vh;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+
+  .parcelas-cartao:focus {
+    outline: 1px solid #002855;
+    background: #dcdfe5;
+  }
+}
+
+/* Desktop */
+@media (min-width: 500px) {
+  /* seção de opções do cartão de crédito */
+
+  .formulario-pagamento {
+    border: 1px solid #dcdfe5;
+    border-radius: 3px;
+    padding: 1%;
+    margin: 2vh auto;
+  }
+
+  .entrada.numero-cartao,
+  .entrada.nome-titular {
+    margin-top: 2vh;
+  }
+  .entrada input:focus {
+    outline: 1px solid #002855;
+  }
+
+  .entradas-cartao-texto {
+    color: #002855;
+    font-size: 2vh;
+    font-weight: lighter;
+    margin-bottom: 0.5vh;
+  }
+
+  /* Validade do cartao e código de seguranca*/
+  .validade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .texto-informacao-cartao {
+    font-size: 2vh;
+    color: #002855;
+    padding-bottom: 1vh;
+  }
+
+  /*seção dos inputs de validade  */
+  .entrada-mes,
+  .entrada-ano,
+  .entrada-codigo-verificacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .validade select,
+  .validade input {
+    width: 150px;
+    height: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #dcdfe5;
+    cursor: pointer;
+  }
+
+  .validade select:focus,
+  .validade input:focus {
+    outline: 1px solid #002855;
+    background: #dcdfe5;
+  }
+
+  /* Parcelas a pagar */
+  .entrada-parcelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.7vh;
+  }
+
+  .texto-informacao-cartao {
+    font-size: 3vh;
+  }
+  .parcelas-cartao {
+    width: 95%;
+    height: 7vh;
+    border-radius: 5px;
+    background: #fafafa;
+    border: none;
+    background: #dcdfe5;
+    margin-bottom: 1.5vh;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+
+  .parcelas-cartao:focus {
+    outline: 1px solid #002855;
+    background: #dcdfe5;
+  }
+}

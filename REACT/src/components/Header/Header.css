@@ -1,0 +1,58 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  .header {
+    background: #fafafa;
+  }
+  .sair-descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 10vh;
+    color: #002855;
+    padding-left: 3vw;
+  }
+
+  .sair-descricao div {
+    text-decoration: none;
+  }
+
+  .icone-sair {
+    font-size: 7vw;
+    color: #002855;
+  }
+
+  .texto-descricao {
+    font-size: 5vw;
+  }
+}
+
+/* Desktop */
+@media (min-width: 500px) {
+  .header {
+    background: #fafafa;
+  }
+  /* Botão de volta e Descrição: Seu pedido */
+  .sair-descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 10vh;
+    color: #002855;
+  }
+  .sair-descricao div {
+    text-decoration: none;
+    font-size: 4vh;
+    color: #002855;
+  }
+  .texto-descricao {
+    font-size: 3vh;
+  }
+}

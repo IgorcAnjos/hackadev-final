@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 900px) {
+  /* .container {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 102vh;
+    color: #161616;
+  } */
+
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .titulo-visualisa-colunas {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+  }
+
+  .visualiza-colunas {
+    height: 4.5vh;
+    width: 4.5vh;
+    background: #161616;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .coluna {
+    color: #fafafa;
+    font-size: 3.7vh;
+  }
+  .titulo-catalogo {
+    font-size: 4vh;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 900px) {
+  .catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .titulo-visualisa-colunas {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh auto;
+    width: 80vw;
+  }
+
+  .visualiza-colunas {
+    height: 4.5vh;
+    width: 4.5vh;
+    background: #161616;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .coluna {
+    color: #fafafa;
+    font-size: 3.7vh;
+  }
+
+  .titulo-catalogo {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  }
+}

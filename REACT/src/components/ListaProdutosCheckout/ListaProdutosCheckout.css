@@ -1,0 +1,118 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  .item-lista {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    margin: 1vh auto;
+    color: #002855;
+    background: #dcdfe5;
+    padding: 1vh;
+    border-bottom: 1px solid #161616;
+    border-top: 1px solid #161616;
+  }
+
+  .item-lista img {
+    width: 20vw;
+  }
+
+  .nome-tamanho-quantidade {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nome {
+    font-size: 5vw;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+  .tam,
+  .quant {
+    font-size: 4vw;
+  }
+
+  .tamanho-quantidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1vh;
+  }
+  .preco-lista {
+    display: flex;
+    align-items: center;
+  }
+
+  .preco-produto {
+    font-size: 4vw;
+  }
+
+  .item-lista .total-preco,
+  .item-lista .preco {
+    font-size: 2.5vw;
+  }
+}
+
+/* Desktop */
+@media (min-width: 500px) {
+  .item-lista {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 1vh auto;
+    color: #002855;
+    background: #dcdfe5;
+    padding: 1%;
+    border-bottom: 1px solid #161616;
+    border-top: 1px solid #161616;
+  }
+
+  .item-lista img {
+    width: 15%;
+    object-fit: cover;
+  }
+
+  .nome-tamanho-quantidade {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nome {
+    font-size: 3vh;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .tamanho-quantidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1vh;
+  }
+
+  .tam,
+  .quant {
+    font-size: 2.7vh;
+  }
+  .preco-lista {
+    display: flex;
+    align-items: center;
+  }
+
+  .preco-produto {
+    font-size: 3vh;
+  }
+
+  .item-lista .total-preco,
+  .item-lista .preco {
+    font-size: 15px;
+  }
+}

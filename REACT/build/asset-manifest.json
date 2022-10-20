@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d02fadac.css",
+    "main.js": "/static/js/main.d0dda549.js",
+    "static/media/logo_kingsman.png": "/static/media/logo_kingsman.434fc393ad2b7638a02d.png",
+    "index.html": "/index.html",
+    "main.d02fadac.css.map": "/static/css/main.d02fadac.css.map",
+    "main.d0dda549.js.map": "/static/js/main.d0dda549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d02fadac.css",
+    "static/js/main.d0dda549.js"
+  ]
+}

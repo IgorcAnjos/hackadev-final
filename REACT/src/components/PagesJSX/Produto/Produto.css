@@ -1,0 +1,269 @@
+@import url("../../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 900px) {
+  .espacamento {
+    height: 7vh;
+  }
+  .cont {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 100vh;
+    color: #161616;
+  }
+
+  .cont::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .cont::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .cont::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+
+  .container-produto {
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-section {
+    text-align: center;
+    padding: 3vh;
+    padding-top: 0;
+    height: 120vw;
+  }
+
+  .foto-produto {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0.3vh 0.3vh 0px 0.2vh #161616;
+    object-fit: cover;
+  }
+
+  .informacoes {
+    padding-left: 3vh;
+    color: #161616;
+  }
+
+  .nome-preco-parcelas {
+    display: block;
+  }
+  .nome {
+    font-size: 4vh;
+  }
+  .preco-parcelas {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .preco {
+    font-size: 3vh;
+  }
+
+  .parcelas {
+    color: #888888;
+    margin-left: 7vw;
+  }
+
+  .tamanho {
+    font-size: 2.2vh;
+  }
+
+  .tamanho-input {
+    width: 90vw;
+    border: none;
+    background: #fafafa;
+    height: 4vh;
+    width: 20vw;
+    border-radius: 8px;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: #161616;
+    outline: 1px solid #161616;
+    margin-top: 1vh;
+    cursor: pointer;
+  }
+
+  .tamanho-input:focus {
+    outline: 1px solid #002855;
+  }
+
+  .button {
+    background: #161616;
+    color: white;
+    padding: 10px 100px;
+    margin: 2vh;
+    margin-top: 3vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .section-botao {
+    padding-right: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    height: 6vh;
+  }
+  .adicionar-sacola {
+    height: 100%;
+    width: 100%;
+    background: #dcdfe5;
+    outline: 0.2vw solid #161616;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+    font-weight: bolder;
+    box-shadow: 1vw 1vw 0 0 #002855;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .adicionar-sacola:active {
+    background-color: #161616;
+    color: #fafafa;
+    outline: 0.2vw solid #fafafa;
+    box-shadow: 0 0 0 0 #002855;
+    transform: translate(1vw, 1vw);
+  }
+}
+@media (min-width: 900px) {
+  .espacamento {
+    height: 7vh;
+  }
+  .cont {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 100vh;
+    color: #161616;
+  }
+
+  .cont::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .cont::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .cont::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+
+  .container-produto {
+    background: #fafafa;
+    display: flex;
+    padding: 3vh;
+    padding-top: 0;
+    height: 100vh;
+  }
+
+  .foto-section {
+    text-align: center;
+    width: 50vw;
+    height: 80%;
+  }
+
+  .foto-produto {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0.3vh 0.3vh 0px 0.2vh #161616;
+    object-fit: cover;
+  }
+
+  .informacoes {
+    padding-left: 3vh;
+    color: #161616;
+  }
+
+  .nome-preco-parcelas {
+    display: block;
+  }
+  .nome {
+    font-size: 5vh;
+  }
+  .preco-parcelas {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .preco {
+    font-size: 4vh;
+  }
+
+  .parcelas {
+    color: #888888;
+    margin-left: 3vw;
+  }
+
+  .tamanho {
+    font-size: 2.2vh;
+  }
+
+  .tamanho-input {
+    width: 90vw;
+    border: none;
+    background: #fafafa;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 8px;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: #161616;
+    outline: 1px solid #161616;
+    margin-top: 2vh;
+    cursor: pointer;
+  }
+
+  .tamanho-input:focus {
+    outline: 1px solid #002855;
+  }
+
+  .section-botao {
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    height: 5vh;
+  }
+  .adicionar-sacola {
+    height: 100%;
+    width: 100%;
+    background: #dcdfe5;
+    color: #161616;
+    outline: 0.2vw solid #161616;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+    font-weight: bolder;
+    box-shadow: 0.5vw 0.5vw 0 0 #002855;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .adicionar-sacola:active {
+    background-color: #161616;
+    outline: 0.2vw solid #fafafa;
+    color: #fafafa;
+    box-shadow: 0 0 0 0 #002855;
+    transform: translate(0.5vw, 0.5vw);
+  }
+}

@@ -1,0 +1,99 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 900px) {
+  .container-flex-faca-login {
+    display: flex;
+    justify-content: space-around;
+    background: #002855;
+    height: max-content;
+    color: #fafafa;
+    padding: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .texto-faca-login {
+    width: 50vw;
+    text-align: center;
+  }
+
+  .icone-texto-facalogin {
+    width: 40vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1vw;
+  }
+
+  .flex-icon-login-cadastro {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    color: #002855;
+    font-size: 3vh;
+    padding: 0.5vh 0;
+    border-radius: 0.5vh;
+  }
+
+  .texto-login-cadatro {
+    margin-left: 2vw;
+    font-weight: bolder;
+  }
+}
+@media (min-width: 900px) {
+  .container-flex-faca-login {
+    display: flex;
+    justify-content: space-around;
+    background: #002855;
+    height: max-content;
+    color: #fafafa;
+    padding: 1vh;
+    font-size: 3vh;
+    align-items: center;
+  }
+
+  .texto-faca-login {
+    width: 50vw;
+  }
+
+  .icone-texto-facalogin {
+    width: 40vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1vw;
+  }
+
+  .flex-icon-login-cadastro {
+    display: flex;
+    width: max-content;
+    text-decoration: none;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    color: #002855;
+    font-size: 3vh;
+    padding: 0.5vh;
+    border-radius: 0.5vh;
+  }
+
+  .texto-login-cadatro {
+    margin-left: 2vw;
+    font-weight: bolder;
+  }
+}

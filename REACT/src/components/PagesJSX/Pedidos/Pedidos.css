@@ -1,0 +1,66 @@
+@import url("../../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  .pedidos-status {
+    background: #002855;
+    overflow-y: scroll;
+    height: 90vh;
+    color: #161616;
+  }
+
+  .pedidos-status::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .pedidos-status::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .pedidos-status::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  .main-pedidos{
+    width: 710px;
+      margin: 0 auto;
+      background-color: #fafafa;
+      padding: 5px;
+      height: 93vh;
+      overflow-y: scroll;
+      border-bottom: 1px solid #dcdfe5;
+      border-left: 1px solid #dcdfe5;
+      border-top: 1px solid #dcdfe5;
+      border-radius: 10px;
+    
+  }
+  .pedidos-status {
+    width: 700px;
+    margin: 0 auto;
+    background: #002855;
+    overflow-y: scroll;
+    height: 90vh;
+    color: #161616;
+  }
+
+  .pedidos-status::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .pedidos-status::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .pedidos-status::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 900px) {
+  .container-busca {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 101vh;
+    color: #161616;
+  }
+
+  .input-buscar {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .container-busca::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .container-busca::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .container-busca::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+
+  .flex-section {
+    display: flex;
+    background: #fafafa;
+    overflow-x: scroll;
+    width: 99vw;
+    height: 70vh;
+    color: #161616;
+    align-items: center;
+  }
+
+  .flex-section::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .flex-section::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .flex-section::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    height: 100%;
+  }
+
+  .espacinho {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-busca {
+    padding: 4vh;
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 101vh;
+    color: #161616;
+  }
+
+  .input-buscar {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .container-busca::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .container-busca::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .container-busca::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+
+  .flex-section {
+    display: flex;
+    background: #fafafa;
+    width: 70vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #161616;
+    align-items: center;
+    justify-content: center;
+  }
+  /* 
+  .flex-section::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .flex-section::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .flex-section::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    height: 100%;
+  } */
+
+  .espacinho {
+    height: 10vh;
+  }
+}

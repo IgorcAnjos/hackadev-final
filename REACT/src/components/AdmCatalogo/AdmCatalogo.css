@@ -1,0 +1,237 @@
+@import url("../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  .produto {
+    margin: 0.5vh;
+    margin-bottom: 0;
+    display: flex;
+    background-color: #dcdfe5;
+    border-radius: 1rem 1rem 0 0;
+    justify-content: space-between;
+  }
+  .imagem {
+    width: 50%;
+  }
+
+  .img-produto {
+    width: 100%;
+    border-top-left-radius: 1rem;
+  }
+  .descricao {
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .texto-adm-produto {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #002855;
+    text-decoration: none;
+  }
+
+  .alterar {
+    padding: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcdfe5;
+    margin: 0.5vh;
+    margin-top: 0;
+    border-radius: 0 0 0.7rem 0.7rem;
+  }
+  .icone-alterar {
+    color: #dcdfe5;
+    font-size: 3vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+  }
+
+  .botao-alterar {
+    background-color: #002855;
+    border-radius: 8px;
+    color: #fafafa;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    transition: 0;
+  }
+
+  .fechar {
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: #dcdfe5;
+    color: #002855;
+    font-size: 2vh;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    display: block;
+  }
+
+  .modal-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #002855;
+  }
+
+  .modal-topo h3 {
+    margin-bottom: 0.3vh;
+  }
+
+  .modal-topo img {
+    border-radius: 5px;
+  }
+  
+  .enviar-produto {
+    width: 100%;
+    height: 3.5vh;
+    border-radius: 4px;
+    font-size: 2.5vh;
+    border: none;
+    background-color: #002855;
+    color: #dcdfe5;
+    margin-bottom: 0.3vh;
+  }
+
+  .enviar-produto {
+    cursor: pointer;
+    margin-top: 1vh;
+    background-color: black;
+  }
+
+  .link-botao-atualizar {
+    color: #fafafa;
+    text-decoration: none;
+  }
+
+  
+  .alterar p {
+    font-size: 2vh;
+  }
+}
+
+@media (min-width: 500px) {
+  .produto {
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #dcdfe5;
+    border-radius: 5px 5px 0 0;
+    justify-content: center;
+  }
+  .imagem {
+    width: 50%;
+  }
+
+  .img-produto {
+    width: 100%;
+    border-top-left-radius: 1rem;
+  }
+  .descricao {
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .texto-adm-produto {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #002855;
+    text-decoration: none;
+  }
+
+  .alterar {
+    padding: 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcdfe5;
+    margin: 0.5vh;
+    margin-top: 0;
+    border-radius: 0 0 0.7rem 0.7rem;
+  }
+  .icone-alterar {
+    color: #dcdfe5;
+    font-size: 3vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+  }
+
+  .botao-alterar {
+    background-color: #002855;
+    border-radius: 8px;
+    color: #fafafa;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    transition: 0;
+  }
+
+  .fechar {
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: #dcdfe5;
+    color: #002855;
+    font-size: 2vh;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    display: block;
+  }
+
+  .modal-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #002855;
+  }
+
+  .modal-topo h3 {
+    margin-bottom: 0.3vh;
+  }
+
+  .modal-topo img {
+    border-radius: 5px;
+  }
+  
+  .enviar-produto {
+    width: 100%;
+    height: 3.5vh;
+    border-radius: 4px;
+    font-size: 2.5vh;
+    border: none;
+    background-color: #002855;
+    color: #dcdfe5;
+    margin-bottom: 0.3vh;
+  }
+
+  .enviar-produto {
+    cursor: pointer;
+    margin-top: 1vh;
+    background-color: black;
+  }
+
+  .link-botao-atualizar {
+    color: #fafafa;
+    text-decoration: none;
+  }
+
+  
+  .alterar p {
+    font-size: 2vh;
+  }
+}

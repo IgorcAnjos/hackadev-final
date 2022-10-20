@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+  .container {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 100vh;
+    color: #161616;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .container::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .container::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    background: #fafafa;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 0.5vw;
+  }
+
+  .container::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .container::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    width: 100%;
+  }
+}

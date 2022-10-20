@@ -1,0 +1,136 @@
+@import url("../../reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
+* {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+@media (max-width: 500px) {
+  .login-main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #fafafa;
+  }
+
+  .login-section {
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .botao-entrar {
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+  }
+
+  .login-btn {
+    background-color: #002855;
+    color: #fafafa;
+    height: 100%;
+    width: 95%;
+    font-size: 3vh;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-link {
+    font-size: 2.5vh;
+    color: #002855;
+    margin-bottom: 3vh;
+  }
+
+  #ou {
+    font-size: 2vh;
+    margin: 1.5vw;
+  }
+
+  .redirect-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  i {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 500px) {
+  .login-main {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 5px;
+    height: 93vh;
+    overflow-y: scroll;
+    border-bottom: 1px solid #dcdfe5;
+    border-left: 1px solid #dcdfe5;
+    border-top: 1px solid #dcdfe5;
+    border-radius: 10px;
+  }
+
+  .login-section {
+    height: max-content;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .botao-entrar {
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+  }
+
+  .login-btn {
+    background-color: #002855;
+    color: #fafafa;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 3vh;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .login-link {
+    font-size: 2.5vh;
+    color: #002855;
+    margin-bottom: 3vh;
+  }
+
+  #ou {
+    font-size: 2vh;
+    margin: 1.5vw;
+  }
+
+  .redirect-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  i {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
