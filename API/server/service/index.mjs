@@ -367,3 +367,9 @@ export const enviarMensagens = (body) => {
     twilio.sendMessageWhatsappTwilio(mensagem);
   }
 };
+
+// Pegar todas as compras de todos os pedidos efeturados
+export const getCompras = async () => {
+  const compras = await data.getCompras();
+  return compras;
+};

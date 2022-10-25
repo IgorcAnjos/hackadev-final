@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
+import ProdutosRelacionados from "../../ProdutosRelacionados";
 
 import "./Produto.css";
 import FacaLogin from "../../FacaLogin/FacaLogin";
@@ -122,6 +123,10 @@ const Produto = ({ isAutenticado }) => {
               </div>
             </div>
           </div>
+          <ProdutosRelacionados
+            produto={findProduto}
+            ListaDeProdutos={ListaDeProdutos}
+          />
         </>
       ) : (
         <h1>Loading</h1>

@@ -1,18 +1,20 @@
--------------------Apagar tabelas-----------------------
-DROP TABLE IF EXISTS produtos;
-DROP TABLE IF EXISTS categorias;
-DROP TABLE IF EXISTS dados_usuarios;
-DROP TABLE IF EXISTS compras;
-DROP TABLE IF EXISTS pedidos;
-DROP TABLE IF EXISTS status_pedidos;
-DROP TABLE IF EXISTS forma_pagamento;
-DROP TABLE IF EXISTS usuarios;
+
+    -------------------Apagar tabelas-----------------------
+    DROP TABLE IF EXISTS compras;
+    DROP TABLE IF EXISTS produtos;
+    DROP TABLE IF EXISTS categorias;
+    DROP TABLE IF EXISTS dados_usuarios;
+    DROP TABLE IF EXISTS pedidos;
+    DROP TABLE IF EXISTS status_pedidos;
+    DROP TABLE IF EXISTS forma_pagamento;
+    DROP TABLE IF EXISTS usuarios;
 
 -------------------Criar tabelas------------------------
 CREATE TABLE categorias (
     id   SERIAL PRIMARY KEY,
     nome VARCHAR(20)
 );
+
 CREATE TABLE produtos (
     id            SERIAL        PRIMARY KEY,
     imagem        VARCHAR(1000) NOT NULL,
@@ -29,7 +31,7 @@ CREATE TABLE produtos (
 CREATE TABLE usuarios (
     id    SERIAL      PRIMARY KEY ,
     ativo BOOLEAN     NOT NULL,
-    email VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(50) NOT NULL,
     senha VARCHAR(32) NOT NULL,
     data  DATE        NOT NULL,
     admin BOOLEAN 
@@ -70,11 +72,10 @@ CREATE TABLE pedidos (
 CREATE TABLE compras (
     id             SERIAL     PRIMARY KEY,
     id_pedido      INT REFERENCES pedidos(id),
-    id_produto     INT REFERENCES produtos(id) ,
+    id_produto     INT REFERENCES produtos(id),
     preco_subtotal MONEY      NOT NULL,
     quantidade     INT        NOT NULL,
     tamanho        VARCHAR(1) NOT NULL
-    
     
 );
 

@@ -559,3 +559,9 @@ export const updatePedido = (idPedidoUpdate, updatePedido) => {
     [status, idFormaPagamento, idPedidoUpdate]
   );
 };
+
+// Pegar todas as compras de todos os pedidos efeturados
+
+export const getCompras = () => {
+  return bancoDeDados.query("SELECT * FROM compras");
+};

@@ -1,4 +1,4 @@
-import express from "express";
+import express, { response } from "express";
 const router = express.Router();
 
 import * as service from "../service/index.mjs";
@@ -371,6 +371,17 @@ router.post("/contatocliente/whatsapp/email", async (req, res) => {
   try {
     service.enviarMensagens(body);
     res.status(201).send("sucesso");
+  } catch (err) {
+    res.status(404).send(err.message);
+  }
+});
+
+// Pegar todas as compras de todos os pedidos efeturados
+
+router.get("/compras/info", async (req, res) => {
+  try {
+    const compras = await service.getCompras();
+    res.status(200).json(compras);
   } catch (err) {
     res.status(404).send(err.message);
   }

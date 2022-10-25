@@ -1,0 +1,230 @@
+@media (max-width: 900px) {
+  .container-produtos-relacionados {
+    background: #002855;
+  }
+
+  .header-produtos-relacionados {
+    text-align: center;
+    padding: 0.5em 0.5em;
+  }
+
+  .titulo-produtos-relacionados {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-weight: 500;
+  }
+
+  .header-opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+
+  .opcao-header {
+    background-color: #fafafa;
+    color: #dcdfe5;
+    height: max-content;
+    width: 5.5em;
+    padding: 0.5em;
+    border-radius: 0.7vw;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+
+  .lista-de-produtos-relacionados {
+    /* display: flex;
+  overflow-x: scroll;
+  width: 99%;
+  align-items: center; */
+    display: flex;
+    overflow-x: scroll;
+    width: 99vw;
+    height: 70vh;
+    align-items: center;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    height: 100%;
+  }
+
+  .produto-relacionado {
+    text-decoration: none;
+    color: #161616;
+    height: 65vh;
+    background: #dcdfe5;
+    margin: 0 0.5rem;
+    border-radius: 1vw;
+    border: 2px solid #fafafa;
+  }
+
+  .imagem-produto-relacionado {
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    border-left: 2px solid #161616;
+    border-right: 2px solid #161616;
+    border-top: 2px solid #161616;
+    height: 50vh;
+    width: 65vw;
+    object-fit: cover;
+  }
+
+  .nomes-preco {
+    text-align: center;
+    font-size: 1.4em;
+    display: flex;
+    height: 14vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .preco-desconto-pr {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5em;
+    align-items: center;
+  }
+
+  .desconto-pr {
+    margin-left: 1.5em;
+    background-color: crimson;
+    color: #fafafa;
+    padding: 0.15em;
+    border-radius: 0.5vw;
+    outline: 1px solid #161616;
+  }
+  .ausencia {
+    width: 75vw;
+    color: #fafafa;
+    font-size: 2em;
+    background-color: #161616;
+    padding: 1rem;
+    border-radius: 2vw;
+    outline: 2px solid #fafafa;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-produtos-relacionados {
+    background: #002855;
+  }
+
+  .header-produtos-relacionados {
+    text-align: center;
+    padding: 0.5em 0.5em;
+  }
+
+  .titulo-produtos-relacionados {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-weight: 500;
+  }
+
+  .header-opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+
+  .opcao-header {
+    background-color: #fafafa;
+    color: #dcdfe5;
+    height: max-content;
+    width: 5.5em;
+    padding: 0.5em;
+    border-radius: 0.7vw;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+
+  .lista-de-produtos-relacionados {
+    /* display: flex;
+  overflow-x: scroll;
+  width: 99%;
+  align-items: center; */
+    display: flex;
+    overflow-x: scroll;
+    width: 99vw;
+    height: 70vh;
+    align-items: center;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar-track {
+    background: #002855;
+  }
+
+  .lista-de-produtos-relacionados::-webkit-scrollbar-thumb {
+    background-color: #dcdfe5;
+    height: 100%;
+  }
+
+  .produto-relacionado {
+    text-decoration: none;
+    color: #161616;
+    height: 65vh;
+    background: #dcdfe5;
+    margin: 0 0.5rem;
+    border-radius: 1vw;
+    border: 2px solid #fafafa;
+  }
+
+  .imagem-produto-relacionado {
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    border-left: 2px solid #161616;
+    border-right: 2px solid #161616;
+    border-top: 2px solid #161616;
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+  }
+
+  .nomes-preco {
+    text-align: center;
+    font-size: 1.4em;
+    display: flex;
+    height: 14vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .preco-desconto-pr {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5em;
+    align-items: center;
+  }
+
+  .desconto-pr {
+    margin-left: 1.5em;
+    background-color: crimson;
+    color: #fafafa;
+    padding: 0.15em;
+    border-radius: 0.5vw;
+    outline: 1px solid #161616;
+  }
+
+  .ausencia {
+    width: 75vw;
+    color: #fafafa;
+    font-size: 2em;
+    background-color: #161616;
+    padding: 1rem;
+    border-radius: 2vw;
+    outline: 2px solid #fafafa;
+    margin: 0 auto;
+  }
+}

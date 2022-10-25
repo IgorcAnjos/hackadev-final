@@ -27,14 +27,6 @@ const Footer = () => {
           className="links"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/alveskt/"
-        >
-          <p className="nomes">Gustavo Alves</p>
-        </a>
-        <a
-          className="links"
-          target="_blank"
-          rel="noreferrer"
           href="https://github.com/IgorcAnjos"
         >
           <p className="nomes">Igor Anjos</p>
@@ -43,10 +35,11 @@ const Footer = () => {
           className="links"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/AgstAngelo"
+          href="https://github.com/alveskt/"
         >
-          <p className="nomes">Augusto Angelo</p>
+          <p className="nomes">Gustavo Alves</p>
         </a>
+
         <a
           className="links"
           target="_blank"
@@ -54,14 +47,6 @@ const Footer = () => {
           href="https://github.com/Gustavohc18"
         >
           <p className="nomes">Gustavo Henrique</p>
-        </a>
-        <a
-          className="links"
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/SABAT-dev"
-        >
-          <p className="nomes">Simon Assagra</p>
         </a>
 
         <img className="logo-rodape" src={logo} alt="logo-rodape" />
