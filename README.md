@@ -93,6 +93,10 @@ Algumas Libs de extrema importância para o funcionamento do site:
 
 - [x] Deve ser possível inserir pedidos no banco de dados e acessar informações do pedidos.
 
+- [x] Deve ter produtos relacionados na página de cada produto.
+
+- [x] Apresentar no mínimo 5 produtos relacionados em cada página
+
 ### Requisitos Opicionais:
 
 - [x] O carrinho de compras deve persistir entre os reloads de páginas.
@@ -102,6 +106,8 @@ Algumas Libs de extrema importância para o funcionamento do site:
 - [x] Feature de busca em tempo real.
 
 - [x] Enviar mensagens de conclusão de pedido para o whatsapp.
+
+- [x] Criar slide para apresentação de produtos relacionados.
 
 ### Funcionalidades Aplicadas por conta própria:
 
@@ -143,6 +149,10 @@ Algumas Libs de extrema importância para o funcionamento do site:
 
 - [x] Ter permissão de administrador para atualizar clientes e produtos.
 
+- [x] Produtos relacionados por compras feitas no site.
+
+- [x] Produtos relacionados por faixa de preço.
+
 </div>
 
 <div id="visao-geral">
@@ -168,6 +178,9 @@ Algumas Libs de extrema importância para o funcionamento do site:
     <img align="center" width="45%" src="https://media.discordapp.net/attachments/1011043824207929385/1026545168372989952/unknown.png?width=372&height=654">
     <img align="center" width="45%" src="https://media.discordapp.net/attachments/1011043824207929385/1026545168997945384/unknown.png?width=374&height=654">
     <img align="center" width="45%" src="https://media.discordapp.net/attachments/1011043824207929385/1026545169371242547/unknown.png?width=374&height=655">
+    <img align="center" width="45%" src="https://media.discordapp.net/attachments/955695681052487733/1036983989136793600/unknown.png?width=372&height=655">
+    <img align="center" width="45%" src="https://media.discordapp.net/attachments/955695681052487733/1036984340594298930/unknown.png?width=372&height=655">
+    <img align="center" width="45%" src="https://media.discordapp.net/attachments/955695681052487733/1036984146821656576/unknown.png?width=372&height=655">
     
   </div>
 
@@ -193,5 +206,5 @@ Rode este comando para finalizar a execução do servidor e liberar a sua porta.
 </div>
 
 <div id="deploy-sites">
-  <h2>Este projeto está hospedado no Netlify e pode ser acessado através do link: <a href="https://kingsman-apitest.netlify.app/">Kingsman</a></h2>
+  <h2>Este projeto está hospedado no Netlify e pode ser acessado através do link: <a href="https://kingsman-final.netlify.app/">Kingsman</a></h2>
 </div>
